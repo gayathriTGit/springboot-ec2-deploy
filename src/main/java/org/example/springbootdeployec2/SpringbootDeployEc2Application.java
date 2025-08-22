@@ -1,0 +1,13 @@
+package org.example.springbootdeployec2;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class SpringbootDeployEc2Application {
+
+	public static void main(String[] args) {
+		SpringApplication.run(SpringbootDeployEc2Application.class, args);
+	}
+
+}

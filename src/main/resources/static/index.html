@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Spring boot deploy on AWS EC2</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #333;
+            text-align: center;
+        }
+        .api-links {
+            margin: 20px 0;
+        }
+        .api-links a {
+            display: inline-block;
+            margin: 10px;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .api-links a:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1>Welcome to Hello Service</h1>
+    <p>Your Spring Boot application is running successfully on AWS EC2!</p>
+
+    <div class="api-links">
+        <h3>API Endpoints:</h3>
+        <a href="/app/hello" target="_blank">Hello Message</a>
+        <a href="/app/health" target="_blank">Health Check</a>
+        <a href="/app/info" target="_blank">App Info</a>
+    </div>
+
+    <p><strong>Deployment Information:</strong></p>
+    <ul>
+        <li>Framework: Spring Boot 3.x</li>
+        <li>Java Version: 21</li>
+        <li>Hosting: AWS EC2</li>
+        <li>Port: 9090</li>
+    </ul>
+</div>
+</body>
+</html>
